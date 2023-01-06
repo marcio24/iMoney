@@ -1,10 +1,10 @@
 { 
 
-    "name": "WebsiteName", 
+    "name": "iMoney", 
   
-    "short_name": "WebName", 
+    "short_name": "iMoney-Webpp", 
   
-    "start_url": "https://DomainName", 
+    "start_url": "https://marcio24.github.io/iMoney/", 
   
     "display": "standalone", 
   

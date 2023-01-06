@@ -9,8 +9,6 @@ body{
     background-size: 100%;
     width: 100vw;
     height: 100vh;
-    max-width: 828px;
-    max-height: 1792px;
     display: flex;
     justify-content: center;
     align-items: center;

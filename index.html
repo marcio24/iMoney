@@ -8,6 +8,7 @@
     <title>iMoney - WebApp</title>
 </head>
 <body>
+    <script src="./script.js"></script>
         <div class="body">
             <div class="formulario">
                 <span>Movimentação</span>
@@ -22,14 +23,14 @@
                         <input type="text" name="Descricao" placeholder="Descrição" class="input">
                     </label>
                     <label>
-                        <input type="date" name="Data da transação" autocomplete="bday" class="input">
+                        <input type="date" name="Data da transação" placeholder="Data da transação" autocomplete="bday" class="input">
                     </label>
                     <label>
                         <input type="submit" value="Enviar" class="enviar">
                     </label>
                 </form>
             </div>
-            <a href="./relatorio.html"><button class="relatorios">Ver Relatrórios</button></a>
+            <button onclick="redirect('./relatorio.html')" class="relatorios">Voltar ao fomulário</button>
     </div>
 </body>
 </html>

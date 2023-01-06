@@ -1,21 +1,21 @@
 { 
 
-    "name": "iMoney", 
+    "name": "iMoney-WebApp", 
   
-    "short_name": "iMoney-Webpp", 
-  
-    "start_url": "https://marcio24.github.io/iMoney/", 
-  
-    "display": "standalone", 
-  
-    "icons": [{ 
-  
-      "src": "images/logo.png", 
-  
-      "sizes": "512x512", 
-  
-      "type": "image/png" 
-  
-    }] 
-  
-  }
+    "short_name": "iMoney", 
+
+  "start_url": "https://marcio24.github.io/iMoney/", 
+
+  "display": "standalone", 
+
+  "icons": [{ 
+
+    "src": "./img/logo.png", 
+
+    "sizes": "512x512", 
+
+    "type": "image/png" 
+
+  }] 
+
+}

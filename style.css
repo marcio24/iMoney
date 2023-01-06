@@ -1,9 +1,8 @@
 body{
-    background-color:red;
     margin: 0;
 }
 .body{
-    background-image: url("./img/Background.png");
+    background-image: url("./img/Background.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -14,8 +13,8 @@ body{
     align-items: center;
 }
 .formulario{
-    width: 309px;
-    height: 425px;
+    width: 70vw;
+    height: 75vh;
     background: rgba(204,204,204, 0.8);
     border-radius: 20px;
     display: flex;
@@ -34,11 +33,12 @@ form{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    size: 500px;
 }
 input{
     margin-bottom: 18px;
-    width: 254px;
-    height: 32px;
+    width: 55vw;
+    height: 50px;
     border-radius: 20px;
     border: none;
     background-color: white;

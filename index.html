@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+   <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <title>iMoney</title>
+</head>
+<body>
+        <div class="body">
+            <div class="formulario">
+                <span>Movimentação</span>
+                <form action="https://api.sheetmonkey.io/form/iqHeakMckRaVc4KsPEKaRR" method="post">
+                    <label>
+                        <input type="number" name="Entradas" placeholder="Entradas" class="input">
+                    </label>
+                    <label>
+                        <input type="number" name="Saidas" placeholder="Saídas" class="input">
+                    </label>
+                    <label>
+                        <input type="text" name="Descricao" placeholder="Descrição" class="input">
+                    </label>
+                    <label>
+                        <input type="date" name="Data da transação" autocomplete="bday" class="input">
+                    </label>
+                    <label>
+                        <input type="submit" value="Enviar" class="enviar">
+                    </label>
+                </form>
+            </div>
+            
+    </div>
+</body>
+</html>
